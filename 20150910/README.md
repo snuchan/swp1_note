@@ -1,3 +1,40 @@
+HTML
+<> </> : 코드의 열기/닫기
+<h1 - 6> 폰트 크기
+<p> 문단변경 but 띄어쓰기나 줄바꿈 고려 x
+<br> 줄바꿈
+<hr> 수평선
+<pre> 문단변경 , 띄어쓰기 줄바꿈 등 고려 o
+<div> 레이아웃? 잘 모르겠음. >> 묶어놓고 후에 클래스 조정 등을 통해 속성을 정할 수 있음 > 시맨틱
+
+CSS
+꾸미기
+>코드를 직접 쓰거나 헤드에 묶어서 내부에 or 외부에 써서 <link>
+
+시맨틱
+> header/ fooer / nav ... 위치가 정해진 <div>? 
+
+color , back.....-color, pading/margin  등등
+border - somewhere : 여백형성
+<section> -- dix 와 유사, 뭉텅이, but 기본적 css가 서로 약간 다름
+
+nav  > float 글씨 배열이 아니라 전체의 배열
+         overflow : 영역을 벗어나는 것들의 처리
+
+body 는 기본적으로 margin을 가지고 있음
+margin: 0;
+
+블록, 인라인
+>> 블록은 설정한 영역 전체 ex. <dix> </dix> 라면 
+   인라인은 <b> <strong> 처럼 블록 내부의 특정 영역 설정(?)
+
+<b> <strong> 굵게
+<i> <em> 기울임 . italic
+<span> : 아무런 효과 x 인라인코드로서 특정 영역을 지정할 때 사용.
+<a> : 링크걸기 .  href 로 설정. target _blank 를 지정하여 새 탭으로 띄우게.
+a는 기본적으로 text-decoration: unerline; 이 적용되어 있음. 그래서 밑줄이 생김.
+ none; 으로 버ㅏ꿔주면 사라짐. 
+
 혹 css에서 특정 부분의 특정 코드를 바꿀경우 (여러가지 a중에서 nav 안에 있는 a만 없앨 경우)
  > nav a {} > 부모 자식?
 
